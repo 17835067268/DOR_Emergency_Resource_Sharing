@@ -133,7 +133,7 @@ Emergency_Resource_Sharing/
 ```
 
 
-## Gurobi Official references
+## Gurobi Official References
 - Gurobi installation for Python: https://support.gurobi.com/hc/en-us/articles/360044290292-How-do-I-install-Gurobi-for-Python
 - Gurobi Optimizer installation: https://support.gurobi.com/hc/en-us/articles/4534161999889-How-do-I-install-Gurobi-Optimizer-
 - License setup: https://support.gurobi.com/hc/en-us/articles/13206281514641-How-do-I-set-up-a-Named-User-or-Single-Machine-or-Single-Use-or-Unlimited-Use-Unlimited-User-license
