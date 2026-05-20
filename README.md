@@ -16,7 +16,7 @@ conda activate dro-gurobi
 conda install -c gurobi gurobi
 ```
 
-## Overalll Demand-Level Identification
+## Overall Demand-Level Identification
 
 The BWM-TOPSIS procedure is used to identify the overall demand level for six unit types (C1–C6) under each scenario. The results are used as inputs for subsequent demand sample generation and optimization experiments.
 
