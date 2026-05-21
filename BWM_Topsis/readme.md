@@ -6,11 +6,11 @@ This folder provides the BWM-TOPSIS procedure used to determine the overall reso
 
 Each scenario is assessed from five dimensions:
 
-1. **Spatial extent**: the geographical scope of epidemic spread.
-2. **Impact severity**: the potential intensity of the scenario’s impact on grassroots emergency operations.
-3. **Response urgency**: the time pressure and immediacy of required emergency response.
-4. **Controllability**: the degree to which the scenario can be effectively controlled through available measures.
-5. **Response complexity**: the complexity of organizing tasks, actors, and resources under the scenario.
+- **Spatial extent**: the geographical scope of epidemic spread.
+- **Impact severity**: the potential intensity of the scenario’s impact on grassroots emergency operations.
+- **Response urgency**: the time pressure and immediacy of required emergency response.
+- **Controllability**: the degree to which the scenario can be effectively controlled through available measures.
+- **Response complexity**: the complexity of organizing tasks, actors, and resources under the scenario.
 
 Among these dimensions, spatial extent, impact severity, response urgency, and response complexity are treated as **positive indicators**, meaning that a higher value indicates a higher resource demand level. Controllability is treated as a **negative indicator**, meaning that lower controllability corresponds to higher resource demand.
 
@@ -62,8 +62,11 @@ The general structure of the scoring table is as follows:
 
 After the scoring matrix is obtained, BWM-TOPSIS is used to identify the most appropriate overall demand level for each unit type under each scenario. The procedure is as follows:
 
-(1). Construct the scoring matrix. The scoring matrix is constructed according to the five evaluation dimensions and the five candidate demand levels, namely VL, L, M, H, and VH.
-(2). Determine factor weights using BWM Solver. The optimal weights of the five evaluation factors are determined using a publicly available BWM Solver. The scoring matrices and the corresponding optimal weights are stored in the `Score_Weight/` folder.
-(3). Normalize the scoring matrix. The normalized matrices are stored in the `Normalized_matrix_data/` folder.
-(4). Calculate the overall demand level using TOPSIS. Run `topsis_calculate.py` to identify the final overall demand level for each unit type under each scenario.
+(1) Construct the scoring matrix. The scoring matrix is constructed according to the five evaluation dimensions and the five candidate demand levels, namely VL, L, M, H, and VH.
+
+(2) Determine factor weights using BWM Solver. The optimal weights of the five evaluation factors are determined using a publicly available BWM Solver. The scoring matrices and the corresponding optimal weights are stored in the `Score_Weight/` folder.
+
+(3) Normalize the scoring matrix. The normalized matrices are stored in the `Normalized_matrix_data/` folder.
+
+(4) Calculate the overall demand level using TOPSIS. Run `topsis_calculate.py` to identify the final overall demand level for each unit type under each scenario.
 
